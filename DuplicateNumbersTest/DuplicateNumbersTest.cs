@@ -15,7 +15,7 @@ namespace DuplicateNumbersTest
             int[] testArr = new int[] { 1, 2, 3, 4};
             obj.findDuplicates(testArr);
             //ASSERT
-
+            Assert.IsType<int []>(testArr);
             
         }
     }
